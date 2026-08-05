@@ -1,0 +1,54 @@
+{
+  "name": "Default macOS Dark System",
+  "version": "1.0.0",
+  "colors": {
+    "primaryAccent": "#2B7FFF",
+    "secondaryAccent": "#A855F7",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "error": "#EF4444",
+    "background": "#12161F",
+    "surfaceCard": "#1A202C",
+    "borderDivider": "#2D3748"
+  },
+  "typography": [
+    {
+      "name": "Header Large",
+      "expectedSize": 22.0,
+      "expectedWeight": "Bold",
+      "tolerancePt": 2.0
+    },
+    {
+      "name": "Section Title",
+      "expectedSize": 16.0,
+      "expectedWeight": "Semibold",
+      "tolerancePt": 1.5
+    },
+    {
+      "name": "Body Text",
+      "expectedSize": 13.0,
+      "expectedWeight": "Regular",
+      "tolerancePt": 1.0
+    },
+    {
+      "name": "Monospace Code",
+      "expectedSize": 12.0,
+      "expectedWeight": "Medium",
+      "isMonospace": true,
+      "tolerancePt": 1.0
+    },
+    {
+      "name": "Caption / Badge",
+      "expectedSize": 11.0,
+      "expectedWeight": "Bold",
+      "tolerancePt": 1.0
+    }
+  ],
+  "spacingTokens": [4.0, 8.0, 12.0, 16.0, 20.0, 24.0, 32.0, 48.0, 64.0],
+  "cornerRadiusTokens": [6.0, 10.0, 16.0],
+  "tolerances": {
+    "spacingPx": 2.0,
+    "dimensionPx": 2.0,
+    "colorDeltaE": 5.0
+  }
+}

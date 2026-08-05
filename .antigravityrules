@@ -1,0 +1,4 @@
+# Antigravity Rules for DesignLens
+
+- All UI components, tokens, typography, and color styling must strictly follow [DESIGN_SYSTEM.md](file:///Users/aeprivalov/Vibe/Design%20lens%202.0/DESIGN_SYSTEM.md).
+- Target platform is macOS native (Swift & SwiftUI) with clean UI, dark mode glassmorphism, responsive split panels, and Vision-based block analysis engine.
